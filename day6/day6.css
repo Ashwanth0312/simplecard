@@ -1,0 +1,44 @@
+.card{
+    text-align: center;
+    background-color:gold;
+    border: 5px solid black;
+    font-family: cooper;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 100px;
+    position: relative;
+    animation-name: card;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+    
+
+  
+   
+}
+.card:hover{
+    box-shadow: 5px 10px 100px white;
+    transform: scale(1.1,1.1);
+    border: 5px solid rgb(0, 250, 237);
+    border-radius: 50px;
+ 
+} 
+
+body{
+    background-color: black;
+}
+card-img-top:hover{
+    transform: translateY(20px);  
+}
+ @keyframes  card {
+   0%{
+            background-color: red ,left=200px, top =0px ;   
+   }
+    
+ }
+
+
+
+
+
+
